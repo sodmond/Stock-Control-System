@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#9C3;
+	width:700px;
+	margin:0px auto;
+}
+a{color:#096; text-decoration:none;}
+a:hover{color:#0C9; text-decoration:underline;}
+#bg{
+	background:#F7F7F7;
+	width:700px; height:720px;
+	border-radius:20px; position:absolute;
+	top:-100px; box-shadow:0px 1px 2px 3px;
+}
+#header{
+	position:absolute; background:url(../images/banner.png);
+	width:700px; height:100px;
+	color:#12C74D; text-align:center;
+	font:2.5em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#footer{
+	position:absolute;
+	width:700px; height:20px;
+	margin-top:630px; text-align:center;
+	font:15px Arial, Helvetica, sans-serif;
+}
+#content{
+	width:680px; height:auto;
+	position:absolute; margin-top:100px;
+	padding:10px;
+}
+fieldset{
+	text-align:center; 
+	font:15px Arial, Helvetica, sans-serif;
+	border:1px #0C6 solid;
+}
+legend{font:17px Cambria; background:#0C6;}
+.btn{
+	width:100px; height:30px;
+	background:#0C3; border:1px #999 ridge;
+}
+.btn:hover{
+	background:#0F6;
+}
+.inputTxt{
+	height:20px;
+	border:1px #0C3 dashed;
+}
